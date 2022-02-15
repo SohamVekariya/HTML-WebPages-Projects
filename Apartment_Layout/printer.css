@@ -1,0 +1,9 @@
+/*printer.css*/
+
+/*Author Soham Vekariy - 000832004*/
+@page{
+	size: 8.5in 11in;
+}
+nav{
+	display: none;
+}

@@ -1,0 +1,125 @@
+
+/*recycle_style.css*/
+
+*{
+	margin:0;
+}
+
+body{
+	font-family:arial;
+	margin-left:10em;
+	margin-right:10em;
+	margin-bottom:5em;
+}
+
+#title{
+	color:#14ab3f;
+	text-align:center;
+}
+#title img {
+	vertical-align: middle;
+}
+
+.recylingbox{
+	line-height:3em
+}
+			nav {
+				
+				
+				width: 100%;
+				height: 50px;
+				background-color: #fbefb3;
+				text-align: center;
+			
+			}
+
+			nav a {
+			
+				color:#14ab3f;
+				text-decoration: none;
+				
+				font-size:20px;
+				padding-top: 10px;
+				text-align: center;
+				
+				margin-right: 100px;
+				display: inline-block;
+					
+				width: 200px;
+				height: 40px;
+				
+			
+			}
+
+ nav a:hover {
+	 color:#ec834a;
+}
+
+
+nav a:visited{
+	color: black;
+}
+.recylingbox ul{
+	list-style-type:none;
+}
+.recylingbox ul li{	 
+	background-image: url("images/sym.jpg");
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:30px;
+
+}
+h1, h2{
+	color:#14ab3f;
+}
+
+figure img{
+	float:right;
+} 
+.ile{
+	list-style-type: circle;
+}
+
+.type ol li{
+	list-style-type: lower-roman;
+}
+
+.container{
+	border-top:2px solid black;
+	background-image: url("images/rip.png");
+	height:100px;
+
+}
+
+#i2{
+	
+	text-align:center;
+	
+	margin:10px;
+}
+#i2 ul{
+	list-style-type:none;
+}
+#type a{
+	
+	text-decoration:none;
+	background-color:#a86bd6;
+	color:#fcc95b;
+}
+#type a:visited{
+	color:black;
+}
+
+.italic{
+	color:#b8860b;
+	
+}
+
+ .green{
+	 color:#14ab3f;
+ }
+ .c{
+	 text-decoration-line: underline;
+	  text-decoration-style: double;
+ }
+	 

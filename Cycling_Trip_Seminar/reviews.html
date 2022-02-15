@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cycling Tours</title>
+	<link rel="stylesheet" type="text/css" href="cyclestyles.css">
+</head>
+<body>
+
+	<nav>
+	
+	<h1>Cycling Trip Seminars</h1>
+	<div>
+			<div><a href="reviews.html">Reviews</a></div>
+			<div><a href="index.html">Seminars</a></div>
+	</div>
+	</nav>
+
+	
+			<form name="inform"
+			  method="post"
+			  action="https://csunix.mohawkcollege.ca/tooltime/showit.pl"
+		>
+
+		<fieldset id="userInfo">
+				<h2>About you</h2>
+			<table id="info">
+			
+					<tr>
+						<td>First Name</td>
+						<td>
+							<input type="text" name="firstName" value="" maxlength="20" size="40" placeholder="James">
+						</td>
+						
+					</tr>
+					<tr>
+						<td>Last Name</td>
+						<td><input type="text" name="lastName" value="" maxlength="20" size="40" placeholder="Bond"></td>
+
+					</tr>
+
+					<tr>
+						<td>Email ID</td>
+						<td><input type="email" name="mail" value="" maxlength="40" size="40" placeholder="jamesbond@gmail.com"></td>
+
+					</tr>
+					<tr>
+						<td>Phone</td>
+						<td><input type="tel" name="phone" value="" maxlength="12" size="40" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+							
+						</td>
+						<td><small>Format: 123-456-7890</small></td>
+
+					</tr>
+
+			</table>
+
+
+			
+				
+		</fieldset>
+		<div id="reviews">
+			<h2>Trip Reviews</h2>
+
+		<table >
+			
+			
+			<tr>
+				<td>Select option:</td>
+			</tr>
+			<tr>
+				<td>
+			<select id="trips">
+				<option value="Nova Scotia Cabot Trail" selected>Nova Scotia Cabot Trail </option>
+				<option value="B.C. Coast">B.C. Coast</option>
+				<option value="Ontario Lake Superior">Ontario Lake Superior</option>
+				<option value="Alberta Rural">Alberta Rural</option>
+			</select>
+				</td>
+			</tr>
+			<tr>
+
+				<td>
+			<select id = "days">
+				<option value="5d">5 Days</option>
+				<option value="7d">7 Days</option>
+				<option value="10d">10 Days</option>
+				<option value="14d">14 Days</option>
+			</select>
+		</td>
+			</tr>
+		<tr>
+
+			<td>Ratings</td>
+
+		</tr>
+		<tr>
+			<td>
+			<div><input type="radio" name="rate" value="1" checked="checked" id="ae" ><img src="images/wheel_sm.jpg" alt="p1" ></div>
+			<div><input type="radio" name="rate" value="2" id="aa"><img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" ></div>
+			<div><input type="radio" name="rate" value="3" id="ab"><img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" ></div>
+			<div><input type="radio" name="rate" value="4" id="ac"><img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" ></div>
+			<div><input type="radio" name="rate" value="5" id="ad"><img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" >&nbsp;<img src="images/wheel_sm.jpg" alt="p1" ></div>
+		</td>
+		</tr>
+			<tr>
+				<td>Comments</td>
+				<td><textarea name="comment" rows="7" cols="65"></textarea></td>
+			</tr>
+
+		</table>
+		</div>
+
+		<h2>I would be interested in these trips:(check all that apply)</h2>
+		<table class="checkbox">
+		
+
+			<tr><td><input type="checkbox" name="referrer" value="Sea or Lake Coast" id="Sea_or_Lake_Coast">Sea or Lake Coast</td></tr>
+
+			<tr><td><input type="checkbox" name="referrer" value="Rural" id="rural">Rural</td></tr>
+
+			<tr><td><input type="checkbox" name="referrer" value="Mountains" id="Mountains">Mountains</td></tr>
+
+			<tr><td><input type="checkbox" name="referrer" value="other" id="other">Other</td></tr>
+
+		
+		</table>
+
+		<input type="submit" name="sendbutton" value="Send">
+		&nbsp;&nbsp;
+		<input type="reset" name="resetbutton" value="clear">
+		<input type="hidden" name="sessionID" value="Soham">
+
+	</form>
+
+
+
+
+</body>
+</html>

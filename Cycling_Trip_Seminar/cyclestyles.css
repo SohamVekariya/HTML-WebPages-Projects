@@ -1,0 +1,156 @@
+/*table css*/
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+h1{
+	width: 100%;
+	border-top: 5px solid black;
+	text-align: center;
+	background-color: rgb(185,201,218);
+	
+}
+nav{
+	width: 100%;
+	background-color:rgb(70,129,164) ;
+	text-align: center;  
+	height: 80px;
+
+}
+nav div{
+	display:flex;
+	justify-content:center;
+	margin-top:8.5px;
+}
+
+nav div div{
+	margin-right:10px; 
+	height: 30px;
+	width: 80px;
+	background-color: rgb(185,201,218);
+	border-top:2px  solid black;
+	border-right:2px  solid black;
+	border-left:2px  solid black;
+	border-radius:0 10px 0 0 ;
+	
+}
+
+nav a{
+	margin-top:5px;
+	color: white;
+	text-decoration:none;	
+}
+.firstt{
+	margin-left:6em;
+}
+#firstt {
+	margin-left:6em;
+}
+
+.color1{
+	
+	border:1px solid lightblue ;
+	height:20px;
+	width:10px;
+
+	background-color:lightblue ;
+}
+.color2{
+	border:1px solid #ADFF2F ;
+	height:20px;
+	width:10px;
+	background-color:#ADFF2F ;
+}
+.color3{
+	border:1px solid #BA55D3 ;
+	height:20px;
+	width:10px;
+	background-color:#BA55D3 ;
+}
+.color4{
+	border:1px solid #FFB6C1;
+	height:20px;
+	width:10px;
+	background-color:#FFB6C1 ;
+}
+
+.secondt{
+	margin: 0% 6em;
+	border:1px solid black;
+	border-collapse:collapse;
+
+}
+.first{
+	width:6%;
+	background-color: #ddeeff;
+}
+.each{
+	width:12%;
+}
+.secondt td,th{
+	border: 1px solid black;
+	height: 50px;
+
+}
+thead {
+	color:white;
+	background-color: #888888;
+}
+
+tbody {
+	vertical-align: top;
+}
+caption{
+	caption-side: bottom;
+	text-align: right;
+}
+.pic{
+	vertical-align: middle;
+	background-image: url(images/dust.jpg);
+}
+.i1{
+	background-color:#BA55D3 ;
+}
+.i2{
+	background-color:lightblue ;
+}
+.i3{
+	background-color:#FFB6C1 ;
+}
+.i4{
+	background-color:#ADFF2F ;
+}
+#userInfo legend{
+	color:black;
+}
+#userInfo{
+	padding: 10px;	
+	background-color: orange;
+}
+
+#userInfo td{
+	background-color: yellow;
+	border: 1px solid black;
+}
+
+select {
+	margin-left: 5px;
+}
+h2{
+	background: lightblue;
+	border:1px solid black;
+	width: 100%;
+}
+.checkbox{
+
+	background: gray;
+	border:1px solid black;
+	width: 100%;
+}
+
+#reviews{
+	background-color: #a86932;
+}
